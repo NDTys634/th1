@@ -10,28 +10,34 @@
             
         }
         body{
-            background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg);
+            min-height: 100vh;
+            background-image: url("pictures/pexels-photo-325185.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         form{
-            width: 300px;
+            width: 450px;
             border-radius: 20px;
             box-shadow: 0 0 10px rgb(203, 247, 247);
             margin: 300px auto;
             background-color: white;
-            padding: 30px;
+            padding: 50px;
             text-align: center;
             align-items: center;
         }
         .form-login{
-            width: 300px;
+            width: 400px;
         }
-        input{
+        /* input{
             width: 200px;
             height: 30px;
             border-bottom: 1px solid #ccc;
-        }
+        } */
         button{
             height: 30px;
             border-radius: 20px;
@@ -60,6 +66,17 @@
         .input-box input::placeholder{
             color: #999;
         }
+        .input-box span {
+            width: 25px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .input-box img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
     </Style>
 </head>
 <body>
@@ -67,9 +84,15 @@
         <h1>NDT</h1>
         <div class="input-box">
             <input type="text" name="username" placeholder="Username">
+            <span>
+                <img src="pictures/person_24px_outlined.svg" alt="">
+            </span>
         </div>
         <div class="input-box">
             <input type="password" name="password" placeholder="Password">
+            <span>
+                <img src="pictures/eye-outline-512px.png" alt="">
+            </span>
         </div>
         <button>Login</button>
 
