@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.2/line/lineicons.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+
 </head>
 <body>
  <!-- 
@@ -17,34 +23,133 @@
  -->
     <main>
         <aside class="sidebar">
-            <h2>NDT</h2>
-            <p>Dashboard</p>
-            <ul>
-                <li><i class="fa-light fa-house" style="color: rgb(0, 0, 0);"></i> Trang Chu</li>
-                <li><i class="fa-regular fa-suitcase" style="color: rgb(0, 0, 0);"></i> Dự Án</li>
-                <li><i class="fa-brands fa-stack-overflow" style="color: rgb(0, 0, 0);"></i>Kiểm tra</li>
-                <li><i class="fa-solid fa-print" style="color: rgb(0, 0, 0);"></i> Báo Cáo</li>
-                <li><i class="fa-regular fa-mobile" style="color: rgb(0, 0, 0);"></i>Thiết Bị</li>
-                <li><i class="fa-regular fa-person" style="color: rgb(0, 0, 0);"></i>Nhân Sự</li>
-                <li><i class="fa-regular fa-gears" style="color: rgb(0, 0, 0);"></i>Cài Đặt</li>
-            </ul>
+            <div class="sidebar-title">
+                <h1>NDT</h1>
 
+                <p id="Dashboard">Dashboard</p>
+            </div> 
+            <div class="sidebar-nav">         
+            <ul>
+                <li><i class="bi bi-house"></i><a href="#"> Trang Chu</a></li>
+                <li><i class="bi bi-clipboard2-data"></i> <a href="#"> Dự Án</a></li>
+                <li><i class="fa-brands fa-stack-overflow" style="color: rgb(0, 0, 0);"></i><a href="#"> Kiểm tra</a></li>
+                <li><i class="fa-solid fa-print" style="color: rgb(0, 0, 0);"></i> <a href="#"> Báo Cáo</a></li>
+                <li><i class="bi bi-pc-display"></i><a href="#"> Thiết Bị</a></li>
+                <li><i class="bi bi-people"></i><a href="#"> Nhân Sự</a></li>
+                <li><i class="bi bi-gear"></i><a href="#"> Cài Đặt</a></li>
+            </ul>
+            </div>
             <div class="sidebar-buttom">
                 <p><i class="fa-regular fa-handshake" style="color: rgb(0, 0, 0);"></i> Hỗ trợ</p>
                 <div class="sidebar-ad">
                     <div class="sidebar-ADd">
                         <i class="fa-solid fa-user fa-xl" style="color: rgb(0, 0, 0);"></i>
                     </div>
-                        <div>
-                            <h4>Nghiêm Đình Tý</h4>
-                            <p>admin</p>
-                        </div>
-                    
+                    <div class="title">
+                        <h4>Nghiêm Đình Tý</h4>
+                        <p>admin</p>
+                    </div>                   
                 </div>
             </div>
         </aside>
         <div class="content">
-            <h1>hehe</h1>
+            <header>
+                <input type="text" name="" id="" placeholder="Tìm kiếm"><img src="pictures/Search2.png" alt="">
+                <img src="pictures/Bell1.png" alt="">
+                <p><i class="fa-solid fa-circle-user fa-xl" style="color: rgb(0, 0, 0);"></i></p>
+            </header>
+            <div class="banner">
+                <div class="banner-content">
+                    <p>Xin Chào</p>
+                    <h1>Nguyễn Văn A</h1>
+                    <p>Chào mừng đến với hệ thống NDT</p>
+                </div>
+                <div class="banner-item">
+                    <img src="pictures/Greptile.png" alt="">
+                    <p>An toàn công trình <br>Bền vững tương lai</p>
+                    <img id="arrow" src="pictures/ArrowRight.png" alt="">
+                </div>
+            </div>
+            <div class="content-main">
+                <div class="content-products">
+                    <img src="pictures/tep.jpg" alt="">
+                    <div class="product-info">
+                        <p>Tồng dự án</p>
+
+                            <div class="product-number">
+                            <h1>12</h1>
+
+                            <div class="product-growth">
+                                <span >+20%</span>
+                                <p>So với tháng trước</p>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+
+                <div class="content-products">
+                    <img src="pictures/kiemtra.jpg" alt="">
+                    <div class="product-info">
+                        <p>Kiểm tra hoàn thành</p>
+
+                            <div class="product-number">
+                            <h1>48</h1>
+
+                            <div class="product-growth">
+                                <span >+12%</span>
+                                <p>So với tháng trước</p>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+
+                <div class="content-products">
+                    <img src="pictures/canhbao.jpg" alt="">
+                    <div class="product-info">
+                        <p>Bất thường phát hiện</p>
+
+                            <div class="product-number">
+                            <h1>12</h1>
+
+                            <div class="product-growth">
+                                <span >+2%</span>
+                                <p>So với tháng trước</p>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+
+                <div class="content-products">
+                    <img src="pictures/thietbi.jpg" alt="">
+                    <div class="product-info">
+                        <p>Thiết bị hoạt động</p>
+
+                            <div class="product-number">
+                            <h1>12</h1>
+
+                            <div class="product-growth">
+                                <span >+20%</span>
+                                <p>So với tháng trước</p>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="content-table">
+                <div class="table">
+                    <table class="table-leasen">
+                        <colgroup>
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <th rowspan="4">Dự án gần đây</th>
+                            <th>xem tất cả</th>
+                        </thead>
+                        
+                    </table>
+                </div>
+            </div>
         </div>
     </main>
 </body>
