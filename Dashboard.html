@@ -41,23 +41,34 @@
             </ul>
             </div>
             <div class="sidebar-buttom">
-                <p><i class="fa-regular fa-handshake" style="color: rgb(0, 0, 0);"></i> Hỗ trợ</p>
+                <span><i class="fa-regular fa-handshake" style="color: rgb(0, 0, 0);"></i> Hỗ trợ</span>
                 <div class="sidebar-ad">
                     <div class="sidebar-ADd">
                         <i class="fa-solid fa-user fa-xl" style="color: rgb(0, 0, 0);"></i>
                     </div>
                     <div class="title">
                         <h4>Nghiêm Đình Tý</h4>
-                        <p>admin</p>
-                    </div>                   
+                        <p>Admin</p>
+                    </div>  
+                    <div>
+                        <i class="fa-solid fa-caret-down" style="color: rgb(0, 0, 0);"></i>
+                    </div>                 
                 </div>
             </div>
         </aside>
         <div class="content">
             <header>
-                <input type="text" name="" id="" placeholder="Tìm kiếm"><img src="pictures/Search2.png" alt="">
-                <img src="pictures/Bell1.png" alt="">
-                <p><i class="fa-solid fa-circle-user fa-xl" style="color: rgb(0, 0, 0);"></i></p>
+                <div class="search-box">
+                    <img src="pictures/Search2.png" alt="">
+                    <input type="text" placeholder="Tìm kiếm dự án, báo cáo, thiết bị...">
+                </div>
+
+                <img src="pictures/Bell1.png" alt="" class="bell">
+
+                <p>
+                    <i class="fa-solid fa-circle-user fa-xl"
+                    style="color: rgb(0, 0, 0);"></i>
+                </p>
             </header>
             <div class="banner">
                 <div class="banner-content">
@@ -79,13 +90,13 @@
                 <div class="content-products">
                     <img src="pictures/tep.jpg" alt="">
                     <div class="product-info">
-                        <p>Tồng dự án</p>
+                        <p class="duan">Tồng dự án</p>
 
                             <div class="product-number">
                             <h1>12</h1>
 
                             <div class="product-growth">
-                                <span >+20%</span>
+                                <span ><i class="fa-solid fa-up-long fa-2xs" style="color: rgb(0,255,170);"></i> +20%</span>
                                 <p>So với tháng trước</p>
                             </div>
                         </div>
@@ -95,13 +106,13 @@
                 <div class="content-products">
                     <img src="pictures/kiemtra.jpg" alt="">
                     <div class="product-info">
-                        <p>Kiểm tra hoàn thành</p>
+                        <p class="duan">Kiểm tra hoàn thành</p>
 
                             <div class="product-number">
                             <h1>48</h1>
 
                             <div class="product-growth">
-                                <span >+12%</span>
+                                <span ><i class="fa-solid fa-up-long fa-2xs" style="color: rgb(0,255,170);"></i> +12%</span>
                                 <p>So với tháng trước</p>
                             </div>
                         </div>
@@ -111,13 +122,13 @@
                 <div class="content-products">
                     <img src="pictures/canhbao.jpg" alt="">
                     <div class="product-info">
-                        <p>Bất thường phát hiện</p>
+                        <p class="duan">Bất thường phát hiện</p>
 
                             <div class="product-number">
                             <h1>12</h1>
 
                             <div class="product-growth">
-                                <span >+2%</span>
+                                <span style="color: rgb(255,0,0);" ><i class="fa-solid fa-up-long fa-2xs" style="color: rgb(255, 0, 0);"></i> +2%</span>
                                 <p>So với tháng trước</p>
                             </div>
                         </div>
@@ -127,13 +138,13 @@
                 <div class="content-products">
                     <img src="pictures/thietbi.jpg" alt="">
                     <div class="product-info">
-                        <p>Thiết bị hoạt động</p>
+                        <p class="duan">Thiết bị hoạt động</p>
 
                             <div class="product-number">
                             <h1>12</h1>
 
                             <div class="product-growth">
-                                <span >+20%</span>
+                                <span ><i class="fa-solid fa-up-long fa-2xs" style="color: rgb(0,255,170);"></i> +20%</span>
                                 <p>So với tháng trước</p>
                             </div>
                         </div>
@@ -154,12 +165,12 @@
                         <thead>
                             <tr>
                                 <th colspan="3">Dự án gần đây</th>
-                                <th colspan="2">Xem Tất Cả</th>
+                                <th class="xct" colspan="2">Xem Tất Cả <i class="fa-solid fa-arrow-right-long" style="color: rgb(195, 195, 195);"></i></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="pictures/anh nha 1.avif" alt="tòa nhà 1"></td>
+                                <td class="outer-left"><img src="pictures/anh nha 1.avif" alt="tòa nhà 1"></td>
                                 <td><p>Tòa Nhà Văn Phòng NTD Tower</p>
                                     <p type="a"><i class="fa-solid fa-map-pin" style="color: rgb(0, 0, 0);"></i> Hà nội</p>
                                 </td>
@@ -175,11 +186,11 @@
                                     <p type="b">Đang thực hiện</p>
                                     <p type="a">20/10/2016</p>
                                 </td>
-                                <td><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
+                                <td class="outer-right"><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
                             </tr>
 
                             <tr>
-                                <td><img src="pictures/anh nha 2.avif" alt="tòa nhà 1"></td>
+                                <td class="outer-left"><img src="pictures/anh nha 2.avif" alt="tòa nhà 1"></td>
                                 <td><p>Cầu Trường Sơn</p>
                                     <p type="a"><i class="fa-solid fa-map-pin" style="color: rgb(0, 0, 0);"></i> Thanh Hóa</p>
                                 </td>
@@ -195,12 +206,12 @@
                                     <p type="b">Đang thực hiện</p>
                                     <p type="a">20/10/2016</p>
                                 </td>
-                                <td><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
+                                <td class="outer-right"><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
                             </tr>
 
 
                             <tr>
-                                <td><img src="pictures/anh nha 3.jpg" alt="tòa nhà 1"></td>
+                                <td class="outer-left"><img src="pictures/anh nha 3.jpg" alt="tòa nhà 1"></td>
                                 <td><p>Nhà Máy Công Nghiệp ABC</p>
                                     <p type="a"><i class="fa-solid fa-map-pin" style="color: rgb(0, 0, 0);"></i> Bắc Ninh</p>
                                 </td>
@@ -216,12 +227,12 @@
                                     <p type="c">Hoàn thành</p>
                                     <p type="a">20/10/2016</p>
                                 </td>
-                                <td><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
+                                <td class="outer-right"><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
                             </tr>
 
 
                             <tr>
-                                <td><img src="pictures/anh nha 4.jpg" alt="tòa nhà 1"></td>
+                                <td class="outer-left"><img src="pictures/anh nha 4.jpg" alt="tòa nhà 1"></td>
                                 <td><p>Trung Tâm Thương mại XYZ</p>
                                     <p type="a"><i class="fa-solid fa-map-pin" style="color: rgb(0, 0, 0);"></i> Hồ Chí Minh</p>
                                 </td>
@@ -237,7 +248,7 @@
                                     <p type="erro">Chờ xử lý</p>
                                     <p type="a">20/10/2016</p>
                                 </td>
-                                <td><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
+                                <td class="outer-right"><i class="fa-solid fa-chevron-right" style="color: rgb(0, 0, 0);"></i></td>
                             </tr>    
                         </tbody>
                     </table>
