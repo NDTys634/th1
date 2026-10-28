@@ -234,7 +234,7 @@ header img{
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: white;
+    
     border-radius: 20px;
     padding: 20px;
 
@@ -411,8 +411,21 @@ header img{
     gap: 10px;
     margin: 10px 5px;
 
+    position: relative;
 
 }
+.inspectioc-calendar::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    border-radius: 10px;
+    background-color: #ccc;
+    box-shadow: 0 1px 3px #ccc;
+}
+
+
 .inspection-day{
     align-items:center ;
     text-align: center;
